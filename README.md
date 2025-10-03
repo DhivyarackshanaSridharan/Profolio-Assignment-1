@@ -34,7 +34,7 @@ The PORTFOLIO contains 4 main pages:
 
 1. GitHub pages Link: https://dhivyarackshanasridharan.github.io/Profolio-Assignment-1/
 
-2. GitHub respository link: https://github.com/DhivyarackshanaSridharan/Profolio-Assignment-1 
+2. GitHub respository link: https://github.com/DhivyarackshanaSridharan/Profolio-Assignment-1
 
 -----------------------References--------------------
 
