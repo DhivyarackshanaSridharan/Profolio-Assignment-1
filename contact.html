@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Dhivyarackshana Sridharan</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:601px) and (max-width:1024px)">
+    <link rel="stylesheet" href="css/laptop.css" media="screen and (min-width:1025px)">
+
 </head>
 <body>
     <header>
@@ -47,15 +51,16 @@
     </footer>
 
     <script>
-        function validateform(){
-            const phone = document.geteElementById("phone"),value;
-            if (!/^[0-9]{10}$/.test(phone)){
-                alert("Please enter a valid 10-digit phone number");
-                return false;
-            }
-            return true;
+    function validateform(){
+        const phone = document.getElementById("phone").value;  
+        if (!/^[0-9]{10}$/.test(phone)){
+            alert("Please enter a valid 10-digit phone number");
+            return false;
         }
-    </script>    
+        return true;
+    }
+    </script>
+   
 </body>
 </html>
 
